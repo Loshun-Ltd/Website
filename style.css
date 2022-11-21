@@ -1,0 +1,21 @@
+/* Version 2022.11.21.16.08 */
+
+html {
+  background-color: #e9a603;
+  background-image: linear-gradient(to bottom, #e7c100, #f1641e);
+  height: 100%;
+  margin: 0%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0%;
+  width: 100%;
+}
+
+div {
+  background-color: #e9a603;
+  height: 100%;
+  width: 500px;
+}
