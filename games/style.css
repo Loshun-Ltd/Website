@@ -1,4 +1,4 @@
-/* Version 2022.12.22.10.59 */
+/* Version 2022.12.22.11.28 */
 
 html {
   height: 100%;
@@ -73,7 +73,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*vertical-align: middle;*/
+  margin-top: 5%;
 }
 
 h3 {
