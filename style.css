@@ -1,4 +1,4 @@
-/* Version 2022.12.21.18.58 */
+/* Version 2022.12.21.21.42 */
 
 html {
   height: 100%;
@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   margin: 0%;
   width: 100%;
@@ -18,8 +19,9 @@ body {
   height: 100%;
   left: 0%;
   top: 0%;
-  position: absolute;
+  position: fixed;
   width: 100%;
+  z-index: -1;
 }
 
 #topnav {
@@ -27,6 +29,26 @@ body {
   width: 100%;
 }
 
-#topnav h1 {
-  margin: 0%;
+h1 {
+  -webkit-text-stroke: 2px #c3b0c3;
+  color: #edd8e4;
+  float: left;
+  font-size: 300%;
+  margin: 5%, 0%, 5%, 0%;
+  width: 20%;
+}
+
+h2 {
+  -webkit-text-stroke: 2px #c3b0c3;
+  color: #edd8e4;
+  float: left;
+  font-size: 225%;
+  margin-top: 3%;
+  width: 20%
+}
+
+hr {
+  background-color: black;
+  border-color: black;
+  width: 90%;
 }
